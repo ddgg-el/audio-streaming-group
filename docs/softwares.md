@@ -1,0 +1,1 @@
+# Lista di software esistenti
