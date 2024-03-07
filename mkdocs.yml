@@ -10,11 +10,12 @@ nav:
 
 
 plugins:
+  - search
   - blog:
       enabled: true
       blog_dir: .
       blog_toc: false
-      post_dir: "posts"
+      post_dir: "blog/posts"
       post_url_max_categories: 1
       post_slugify_separator: "-"
       post_excerpt_max_authors: 1
@@ -57,7 +58,7 @@ plugins:
 theme:
   name: material
   language: it
-  custom_dir: overrides
+  custom_dir: docs/overrides
   features:
     - navigation.instant
     - navigation.instant.progress
@@ -65,10 +66,7 @@ theme:
     - navigation.top
     - navigation.footer
     - announce.dismiss
-extra:
-  generator: false
 
-  
   palette: 
     - media: "(prefers-color-scheme)"
       toggle:
@@ -85,8 +83,8 @@ extra:
 
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: blue grey
-      accent: blue grey
+      primary: custom 
+      accent: custom
       toggle:
         icon: material/brightness-4
         name: Switch to system preference

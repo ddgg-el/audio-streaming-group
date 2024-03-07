@@ -35,3 +35,10 @@ details .highlight{
 	height: auto;
 	font-size: 0.9em;
 }
+
+:root {
+	--md-primary-fg-color: #3d424c;
+	--md-accent-fg-color: #7a7a7a;
+	/* --md-primary-fg-color--light: #ECB7B7; */
+	--md-primary-fg-color--dark:  #7a7a7a;
+}

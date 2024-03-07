@@ -1,0 +1,14 @@
+# per aggiungere un autore BISOGNA dichiarare tutte le voci
+# riportate nell'esempio, ma si possono specificare
+# stringhe vuote
+
+authors:
+  davide:
+    name: Davide Gagliardi
+    description: ""
+    avatar: ""
+
+  # esempio:
+    # name: 
+    # description: ""
+    # avatar: ""
