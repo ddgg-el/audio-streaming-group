@@ -14,7 +14,7 @@ plugins:
       enabled: true
       blog_dir: .
       blog_toc: false
-      post_dir: "{blog}/posts"
+      post_dir: "posts"
       post_url_max_categories: 1
       post_slugify_separator: "-"
       post_excerpt_max_authors: 1
