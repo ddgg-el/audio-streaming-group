@@ -18,7 +18,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - run: pip install --upgrade pip
-      - run: pip install mkdocs-material
+      - run: pip install mkdocs-material==9.2.0b3
 
       - name: Deploy docs
         uses: mhausenblas/mkdocs-deploy-gh-pages@master
