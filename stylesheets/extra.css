@@ -1,0 +1,44 @@
+/* html {
+	font-size: 125%;
+}
+
+details .highlight{
+	font-size: 1.3em;
+}
+
+.md-grid {
+	max-width: 80rem;
+}
+
+.md-typeset figure {
+	margin: 30px auto;
+	/* box-shadow: 0px 15px 35px 0px rgba(0,0,0,0.32); */
+/*}
+
+.md-typeset figcaption {
+	margin: 0 auto;
+	font-size: 12px;
+}
+
+.abstract code {
+	font-size: 12px;	
+}
+
+.example code {
+	font-size: 12px;	
+} */
+
+.md-typeset .md-author {
+	border-radius: 0%;
+	overflow: auto;
+	width: 100%;
+	height: auto;
+	font-size: 0.9em;
+}
+
+:root {
+	--md-primary-fg-color: #3d424c;
+	--md-accent-fg-color: #7a7a7a;
+	/* --md-primary-fg-color--light: #ECB7B7; */
+	--md-primary-fg-color--dark:  #7a7a7a;
+}
