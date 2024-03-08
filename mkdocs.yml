@@ -41,10 +41,10 @@ theme:
 extra_css:
   - stylesheets/extra.css
 
-nav:
-  - Intro: index.md
-  - Blog: blog/index.md
-  - Software Esistenti: softwares.md 
+# nav:
+#   - Intro: index.md
+#   - Blog: blog/index.md
+#   - Software Esistenti: softwares.md 
 
 plugins:
   - search
@@ -61,12 +61,12 @@ plugins:
       post_readtime: true
       post_readtime_words_per_minute: 265
       archive: true
-      archive_name: Archive
-      archive_toc: false
+      archive_name: Archivio
+      archive_toc: true
       categories: true
-      categories_name: Categories
+      categories_name: Categorie
       categories_slugify_separator: "-"
-      categories_toc: false
+      # categories_toc: false
       authors: true
       authors_file: "blog/.authors.yml"
       pagination: true
